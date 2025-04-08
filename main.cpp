@@ -81,15 +81,4 @@ int main() {
     } else {
         cout << "Graf nie je bipartny";
     }
-    /*
-    for (int i = 0; i < pocet; i++)
-    {
-        cout << susednosti[i].num << ": ";
-        for (int j = 0; j < susednosti[i].susedia.size(); j++)
-        {
-            cout << susednosti[i].susedia[j] << " ";
-        }
-        cout << '\n';
-    }
-    */
 }

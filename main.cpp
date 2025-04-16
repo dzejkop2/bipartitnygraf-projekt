@@ -53,6 +53,12 @@ int main() {
     vector<Node> susednosti;
 
     fstream file("input.txt");
+
+    if (!file.is_open()) {
+        cerr << "Chyba: Subor 'input.txt' sa nepodarilo otvorit." << endl;
+        return 1;
+    }
+
     string line;
     int string_index = 0;
     
